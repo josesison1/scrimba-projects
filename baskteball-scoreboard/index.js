@@ -30,8 +30,7 @@ window.onload = function(){
     var min = 11;
     var sec = 59;
     setInterval(function(){
-    var a = new Date();
-        document.getElementById("countdown").innerHTML = min +" : " + sec ;
+        document.getElementById("countdown").innerHTML = min + " : " + sec 
         sec--;
         if(sec === 00)
         {
@@ -43,4 +42,8 @@ window.onload = function(){
             }
         }
         },1000);
+}
+
+const reset = () => {
+    document.getElementById("countdown").innerHTML = "12:00"
 }
