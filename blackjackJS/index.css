@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+body {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-image: url(https://thumbs.dreamstime.com/b/poker-background-chips-green-table-178986757.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+    /* font-family: 'Kdam Thmor Pro', sans-serif; */
+    font-family: 'Diplomata SC';
+    /* font-family: 'Teko', sans-serif;  */
+    font-size: 50px;
+    margin: 0;
+}
+
+.outer-container {
+    border: 6px solid black;
+    height: 407px;
+    width: 720px;
+    border-radius: 3.8em;
+    margin: auto;
+    position: relative;
+    left: -10px;
+    top: 100px;
+}
+
+.container {
+    border: 6px solid rgb(215, 73, 73);
+    height: 350px;
+    padding: 5px;
+    padding-bottom: 40px;
+    width: 700px;
+    justify-content: center;
+    background-image: url(https://c0.wallpaperflare.com/preview/246/343/639/21-card-game-black-jack-blackjack-card-game.jpg);
+    background-size: cover;
+    border-radius: 3.5em;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.btn {
+    color: #016f32;
+    background-color: goldenrod;
+    width: 150px;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 4px 4px rgb(33, 33, 30);
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.btns {
+    display: inline-block;
+}
